@@ -54,7 +54,6 @@ namespace BusBookingSystem
             commands.Parameters.AddWithValue("@dateAndTime", txt_DateTime.Text);
 
             commands.ExecuteNonQuery();
-
             con.Close();
         }
 
